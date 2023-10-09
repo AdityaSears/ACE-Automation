@@ -9,9 +9,6 @@
   "devDependencies": {
     "@playwright/test": "^1.37.1"
   },
-  "dependencies": {
-    "crypto-js": "^4.1.1"
-  },
   "directories": {
     "test": "tests"
   },
