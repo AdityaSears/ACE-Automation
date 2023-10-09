@@ -162,9 +162,3 @@ test.describe(`token`, async () => {
     await expect(tokenobj.invalidemail).toBeVisible({ timeout: 15000 });
   });
 });
-
-// async function getDecryptedValue(data:string)
-// {
-//     var decrypt=CryptoJS.AES.decrypt(data,process.env.SECRET_KEY);
-//     return decrypt.toString(CryptoJS.enc.Utf8)
-// }
