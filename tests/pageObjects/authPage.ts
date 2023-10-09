@@ -12,8 +12,8 @@ export class AuthPage {
   }
 
   async auth() {
-    await this.ldapid.fill("syattha"); //Enter your ldap id
-    await this.password.fill("Homeservices#636"); // enter your password.
+    await this.ldapid.fill(""); //Enter your ldap id
+    await this.password.fill(""); // enter your password.
 
     await this.login.click();
   }
